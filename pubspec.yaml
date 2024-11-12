@@ -1,0 +1,43 @@
+name: chat_acad
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  get_it: ^8.0.2
+  intl: ^0.18.1
+  floor: ^1.4.2
+  retrofit: ^4.4.1
+  flutter_hooks: ^0.18.3
+  cached_network_image: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  retrofit_generator: ^9.1.4
+  floor_generator: ^1.2.0
+  build_runner: 2.4.13
+  analyzer: 6.7.0
+  dart_style: 2.3.7
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Muli
+      fonts:
+        - asset: assets/fonts/muli/Muli.ttf
+        - asset: assets/fonts/muli/Muli-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/muli/Muli-Light.ttf
+          weight: 300
